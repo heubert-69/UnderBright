@@ -66,7 +66,7 @@ public class Chase_Attack : MonoBehaviour
         anim.SetInteger("Mode", 2); // Attack animation
         
         // Face player during attack
-        Vector3 direction = (player.position - transform.position).normalized;
+        Vector2 direction = (player.position - transform.position).normalized;
         transform.rotation = Quaternion.LookRotation(direction);
         
         lastAttackTime = Time.time;
