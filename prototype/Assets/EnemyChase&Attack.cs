@@ -81,4 +81,4 @@ public class Chase_Attack : MonoBehaviour
         agent.isStopped = true;
         anim.SetInteger("Mode", 0); // Idle animation
     }
-}
+} //new and improved chasing
